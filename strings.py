@@ -58,3 +58,31 @@ print(x2[-4:None])
 x = "he is a legendary and great"
 print(x.endswith("great"))
 print(x.endswith("and great"))
+
+
+# 2)   str.capitalize ()
+
+x="i am neev and  wanna become a developer"
+x=x.capitalize()
+print(x)  
+#  OR 
+print(x.capitalize())
+
+# 3)   str.replace()
+x="he is on another stage "
+print(x.replace("stage","level"))
+
+
+# 4)    str.find("word")   
+#    IT WILL TELL THE INDEX OF A GIVEN WORD
+      
+x="he is on another level, he is legendary u understand  legendary"
+print(x.find("legendary"))
+
+
+# 5)    str.count("word")
+x=(" hi i am neev, for now i am studying in LJ university and  i wanna be developer in future")
+print(x.count("wanna "))
+
+
+
