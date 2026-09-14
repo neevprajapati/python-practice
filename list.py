@@ -89,6 +89,45 @@ x.remove(3)
 print(x)
 
 
-x=["I" , "AM","ALWAYS","HAPPY","?"]
-x.remove("?")
+###   5)    pop method
+x=[1,2,3,4,5]
+x.pop(2)
 print(x)
+
+
+
+
+###  TUPLE METHOD......###
+''' IT IS IMMUTABLE JUST AS STRING'''
+
+
+#### STRING SLICING...
+x=(1,2,3,4,5,6)
+print(x[0])
+print(x[0:2])
+print(x[2:3])
+print(x[1:4])    #### it has the same slicing syntax as LIST.....
+
+
+
+#### define 1 elent in TUPLE    and define 1 elememt in list
+x=(1,)
+print(type(x))
+x=[1]
+print(type(x))
+
+
+### TUPLE METHOD
+
+# 1)     ELEMENT--> INDEX
+
+x=(1,2,4,3,56)
+print(x.index(56))
+
+
+# 2) COUNT METHOD....(it count how many repeateted times does the element is repeated)
+x=(1,2,3,4,5,6,7,8,9,10)
+print(x.count(6))
+x=(1,1,1,2,2,3,3,33,3,3,3,3,3,4,5,6,7,8,9,9,9,9,9,10)
+print(x.count(3))
+print(x.count(9))
